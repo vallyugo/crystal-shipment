@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body{
+    overflow-x: hidden;
+    padding: 0px;
+    margin: 0px;
+    font-family: Lato;
+}
+
+.navbox{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+list-style: none;
+display: flex
+}
+
+.navbar a{
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: bold;
+    
+}
+
+a:link{
+    color: black;
+}
+a:visited{
+color: red;
+}
+a:active{
+    color:black;
+}
+a:hover{
+    color:green;
+}
+
+.buttn{
+    background-color: red; 
+    color: white; 
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin: none;
+    font-size: 16px;
+    cursor: pointer;
+    
+    
+
+}
+.firstbody{
+    height: 450px;
+    background-image: url('images/big.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    clear: both;
+}
+.cargo{
+    padding-top: 100px;
+    padding-bottom: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.firstbody h1,.firstbody h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 75px;
+    color: white;
+}
+hr {
+    background-color: red;
+    width: 10%;
+    height: 3px;
+    border-radius: 2px;
+}
+
+.down{
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.div_container{
+display: grid;
+grid-template-columns: auto auto;
+padding: 20px;
+gap: 20px;  
+}
+
+.secondnavr{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+    gap: 20px;
+}
+.noted{
+    text-decoration: none;
+    color: red;
+}
+.navyellow{
+    height: 130px;
+    background-color: #FFBF14;
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+   margin: 0px 20px 0px 20px;
+}
+.navbuton1{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 20px;
+    gap: 290px;
+    
+}
+.workload{
+    display: flex;
+    align-items: center;
+}
+.formcase{
+    width: 300px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #515151;
+    
+
+}
+.topper, .bottom {
+    padding-bottom: 25px;
+}
+.textarea{
+    width: 615px;
+    height: 190;
+    padding: 10px 0px 0px 10px;
+    border-radius: 8px;
+    border: 1px solid #515151;
+}
+.newbttn{
+    padding: 10px 30px 10px 30px;
+    border-radius: 8px;
+    background: #E71800;
+    border:none;
+    cursor: pointer;
+    color:white;
+    margin-top: 15px;
+}
+.bottombar{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: black;
+    color: white;
+    padding: 0px 20px 0px 20px;
+
+}
+.listnone{
+    list-style: none; 
+    margin: 0px;
+    padding: 0px; 
+}
+.imaget{
+    display: inline-flex;
+    padding: 20px;
+}
+.paddind{
+    padding: 20px;
+}
+.goat{
+    display: inline-flex
+}
+
+.textmiddle{
+   color: white;
+   background-color: black;
+   margin: 0px;
+   padding: 15px 0px 15px 0px;
+   text-align: center;
+}
+
+/* Mobile styles for screens up to 767px width (For PHONE VIEW)*/
+@media only screen and (max-width: 767px){
+    .cutlass{
+        display: none;
+    }
+    .firstbody{
+        text-align: center;
+    }
+    .div_container{
+        display: block;
+        text-align: center;
+        padding: 20px;
+        
+    }
+    .kettle{
+        padding-top: 25px;
+        text-align: left;
+    }
+    .tinlink{
+        padding-left: 10px;
+    }
+    .ontop{
+        padding-top: 40px;
+    }
+    .secondnavr{
+        display: grid;
+        grid-template-columns: auto;
+        
+        
+    }
+    
+    .moveit{
+        text-align: left;
+    }
+    .tired{
+        text-align: left;
+    }
+    .navyellow{
+        margin: 0px;
+        display: block;
+        text-align: center;
+        padding: 10px 2px 120px 2px;
+    }
+    .remover{
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+    .buttn2{
+        margin-top: 50px;
+        
+    }
+    .navbuton1{
+        display: block;
+        text-align: left;
+    }
+    .workload{
+        width: 70%;
+    }
+    .leftitall{
+        text-align: left;
+    }
+    .topper, .bottom {
+        padding-bottom: 0px;
+        margin-left: 0px;
+        
+    }
+    .formcase{
+        margin-bottom: 20px;
+    }
+  
+    .textarea{
+        width: 300px;
+        margin-bottom: 10px;
+    }
+    .bottombar{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 0px;
+    }
+    .paddind{
+      padding: 0px;  
+      
+    }
+    .ikenna{
+        width: 75%;
+    }
+  
+    
+}
+
+/* Responsive layout for screens 768px and above */
+@media only screen and (min-width: 768px){
+    .phone{
+        display: none;
+    }
+    
+}
+/* we are working tommorrow */
